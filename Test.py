@@ -7,4 +7,4 @@ rover = Rover()
 
 rover.move_forward(0.2, 1)
 
-finish_experiment()
+#finish_experiment()
