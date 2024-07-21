@@ -8,8 +8,8 @@ rover = Rover()
 cam = Camera()
 
 
-for i in range(4):
-    rover.move_forward(0.2, 3)
+for i in range(1):
+    rover.move_forward(0.2, 1)
     cam.get_jpg()
     rover.turn_right(15, 6) 
 
